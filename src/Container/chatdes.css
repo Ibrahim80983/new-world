@@ -1,0 +1,87 @@
+.chat_des {
+    background-image: linear-gradient(135deg, rgb(4,44,84) 80%, rgb(27,118,219));
+    font-family: var(--my-font-family);
+    padding: 40px;
+    margin: 120px 0;
+}
+.chat_des p {
+    color: rgb(120,165,211);
+}
+.short {
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(to right, rgb(187,112,222), rgb(241,150,111));
+}
+.chat_des h2 {
+    color: white;
+    font-size: 18px;
+}
+.chat, .middle {
+    display: flex;
+    justify-content: space-between;
+}
+.end {
+    width: 30%;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.middle{
+    padding: 60px 0;
+}
+.middle h1 {
+    background: linear-gradient(to right, rgb(174,103,250), rgb(236,146,121));
+    background-clip: text;
+    color: transparent;
+    font-size: 34px;
+}
+.middle p{
+    color: rgb(197,116,106);
+}
+.alone {
+    width: 30%;
+}
+.alone p {
+    font-size: 14px;
+    line-height: 1.5rem;
+
+}
+.chatdes1_end p {
+    color: rgb(120,165,211);
+
+}
+@media screen and (max-width: 600px) {
+    .chat_des {
+        padding: 20px;
+        margin: 30px 0;
+    }
+    
+    .chat_des h2 {
+        color: white;
+        font-size: 15px;
+    }
+    .chat, .middle {
+        flex-direction: column;
+    }
+    .end {
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+    .middle{
+        padding: 30px 0;
+    }
+    .middle h1 {
+        font-size: 20px;
+    }
+    .alone {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .alone p {
+        font-size: 14px;
+        line-height: 1.5rem;
+    
+    }
+    
+    
+}

@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--my-font-family);
+}
+.nav-hero {
+  background-image: linear-gradient(to right, rgb(1,39,81), rgb(4,16,31));
+  font-family: "Manrope", sans-serif;
+
+}
+.component {
+  background-color: rgb(4,12,24);
+  padding: 40px 80px;
+}
+.chatdes2 img {
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .component {
+    padding: 15px 30px;
+  }
+}
+

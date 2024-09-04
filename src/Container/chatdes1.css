@@ -1,0 +1,69 @@
+.chatdes1, .chatdes2 {
+    display: flex;
+    font-family: var(--my-font-family);
+    justify-content: space-between;
+}
+.chatdes1 h1, .chatdes2 h1 {
+    background: linear-gradient(to right, rgb(174,103,250), rgb(236,146,121));
+    background-clip: text;
+    color: transparent;
+    font-size: 34px;
+}
+.chatdes1 h2 {
+    font-size: 18px;
+    color: white;
+}
+.chatdes1_start {
+    width: 35%;
+}
+.chatdes1_start p {
+    color: rgb(255,134,101);
+    margin-top: 2rem;
+}
+.chatdes1_middle {
+    width: 15%;
+    line-height: 1.5rem;
+
+}
+.chatdes1_end {
+    width: 30%; 
+    line-height: 1.4rem;
+    font-size: 14px;
+}
+.short {
+    margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 600px){
+ .chatdes1, .chatdes2 {
+    flex-direction: column;
+}
+.chatdes1 h1, .chatdes2 h1 {
+    font-size: 20px;
+}
+.chatdes1 h2 {
+    font-size: 18px;
+    color: white;
+}
+.chatdes1_start {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.chatdes1_start p {
+    color: rgb(255,134,101);
+    margin-top: 1rem;
+}
+.chatdes1_middle {
+    width: 100%;
+    line-height: 1.5rem;
+
+}
+.chatdes1_end {
+    width: 100%; 
+    line-height: 1.5rem;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.short {
+    margin-bottom: 0.5rem;
+}   
+}

@@ -1,0 +1,59 @@
+:root {
+  --my-font-family: "Manrope", sans-serif;
+}
+.App a {
+  text-decoration: none;
+  color: white;
+}
+.App {
+    justify-content: space-between;
+    display: flex;
+    padding: 40px 80px;
+    font-size: 18px;
+  }
+  
+  .App ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    
+  }
+  .sign a {
+    text-decoration: none;
+    color: white;
+  }
+  .sign-up {
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .nav-links {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 20px;
+  }
+  .nav-links img {
+    object-fit: contain;
+  }
+  .responsive {
+    display: none;
+  }
+  .responsive div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 8px;
+  }
+  @media screen and (max-width: 600px) {
+    .App {
+      padding: 20px 30px;
+      font-size: 18px;
+    } 
+    .App ul {
+      display: none;
+    }
+    .responsive {
+      display: block;
+    }
+  }

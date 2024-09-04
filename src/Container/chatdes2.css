@@ -1,0 +1,64 @@
+.chatdes2 {
+    margin: 100px 0;
+}
+.possibility {
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+.possibility_des {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.early {
+    color: rgb(103,222,255);
+    margin-bottom: 1.5rem;
+}
+.access {
+    color: rgb(255,134,101);
+    margin-top: 2rem;
+}
+.yet {
+    line-height: 1.4rem;
+    margin-top: 2rem;
+    font-size: 16px;
+    color: rgb(120,165,211);
+
+}
+@media screen and (max-width: 600px) {
+    .chatdes2 {
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+    }
+    .possibility {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .possibility_des {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .early {
+        color: rgb(103,222,255);
+        margin-bottom: 1.5rem;
+    }
+    .access {
+        color: rgb(255,134,101);
+        margin-top: 2rem;
+    }
+    .yet {
+        line-height: 1.4rem;
+        margin-top: 2rem;
+        font-size: 16px;
+        color: rgb(120,165,211);
+    
+    }
+    .chatdes2 img {
+        width: 100%;
+}
+}

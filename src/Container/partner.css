@@ -1,0 +1,18 @@
+.partners {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin: 60px 0;
+    flex-wrap: wrap;
+    object-fit: contain;
+}
+.partners img {
+    height: 25px;
+}
+@media screen and (max-width: 600px) {
+    .partners {
+        gap: 45px;
+        margin: 0;
+    }
+    
+}
